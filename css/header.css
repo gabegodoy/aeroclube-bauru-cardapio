@@ -1,0 +1,17 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.875rem;
+}
+
+.header__tittle{
+  line-height: 1.875rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.header__image{
+  width: 2.25rem;
+}
