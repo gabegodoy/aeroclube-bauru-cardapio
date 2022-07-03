@@ -1,0 +1,18 @@
+:root{
+
+  --dark: #2C406E;
+  --soft: #7D8FAB;
+  --main: #42A7E5;
+  --grey-01: #E8EFF3;
+  --grey-02: #BFC9DA;
+  --black: #293041;
+  --white: #FFFFFF;
+  --accent: #FF6B53;
+/*   --white-35: #FFFFFF 50%; */
+  --green: #84CA93;
+  --purple: #A183E0;
+  --yellow: #FFA902;
+
+  --lato: 'Lato', sans-serif;
+
+}
