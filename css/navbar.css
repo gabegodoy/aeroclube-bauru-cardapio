@@ -1,7 +1,7 @@
 .main__nav__list{
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
   flex-wrap: nowrap;
 
   overflow: scroll;
@@ -16,9 +16,10 @@
   align-items: center;
 
   box-sizing: border-box;
-  padding: 1.1875rem .75rem;
+  padding: .8rem .75rem;
   border-radius: 50px;
 
+  color: var(--dark);
   font-size: .875rem;
   font-weight: 600;
   line-height: 1rem;
@@ -31,7 +32,81 @@
   margin: 0 auto;
 }
 
+.bebidas::before{
+  content: "";
+  display: block;
+  margin-right: .3rem;
 
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../assets/icons/bebidas-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.petiscos::before{
+  content: "";
+  display: block;
+  margin-right: .3rem;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../assets/icons/petiscos-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.porcoes::before{
+  content: "";
+  display: block;
+  margin-right: .3rem;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../assets/icons/porcao-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sandubas::before{
+  content: "";
+  display: block;
+  margin-right: .3rem;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../assets/icons/sandubas-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sobremesas::before{
+  content: "";
+  display: block;
+  margin-right: .3rem;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../assets/icons/sobremesas-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.nav__item--active{
+  background-color: var(--accent);
+  color: var(--white);
+}
+
+.nav__item--active::before{
+  background-image: url(../assets/icons/bebidas-white-icon-svg.svg);
+}
 
 /* .main__nav__item::before{
   content: url(../assets/icons/bebidas-icon.svg);
