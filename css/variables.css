@@ -3,7 +3,7 @@
 :root{
 
   --dark: #2C406E;
-  --soft: #7D8FAB;
+  --soft: #6b7991;
   --main: #42A7E5;
   --grey-01: #E8EFF3;
   --grey-02: #BFC9DA;
@@ -14,6 +14,8 @@
   --green: #84CA93;
   --purple: #A183E0;
   --yellow: #FFA902;
+
+  --aeroblue: #25145f;
 
   --lato: 'Lato', sans-serif;
 
