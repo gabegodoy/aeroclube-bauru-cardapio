@@ -24,11 +24,11 @@
   font-weight: 600;
   line-height: 1rem;
 
-  border: solid var(--grey-01) 1px;
+  border: solid var(--grey-02) 1px;
 }
 
 .main__nav{
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -99,16 +99,48 @@
 }
 
 
-.nav__item--active{
+/* ACTIVE ITEMS */
+.bebidas--active{
   background-color: var(--accent);
   color: var(--white);
 }
 
-.nav__item--active::before{
+.bebidas--active::before{
   background-image: url(../assets/icons/bebidas-white-icon-svg.svg);
 }
 
-/* .main__nav__item::before{
-  content: url(../assets/icons/bebidas-icon.svg);
-  
-} */
+.petiscos--active{
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.petiscos--active::before{
+  background-image: url(../assets/icons/petiscos-white-icon.svg);
+}
+
+.porcoes--active{
+  background-color: var(--yellow);
+  color: var(--white);
+}
+
+.porcoes--active::before{
+  background-image: url(../assets/icons/porcao-white-icon.png);
+}
+
+.sandubas--active{
+  background-color: var(--main);
+  color: var(--white);
+}
+
+.sandubas--active::before{
+  background-image: url(../assets/icons/sandubas-white-icon.svg);
+}
+
+.sobremesas--active{
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.sobremesas--active::before{
+  background-image: url(../assets/icons/sobremesas-white-icon.svg);
+}

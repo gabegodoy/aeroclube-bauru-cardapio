@@ -1,0 +1,126 @@
+.drinks__nav{
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.drinks__nav__list{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+  
+  overflow: scroll;
+}
+
+.drinks__nav__list::-webkit-scrollbar{
+  display: none;
+}
+
+.drinks__nav__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  height: 6.5rem;
+  width: 4rem;
+
+  box-sizing: border-box;
+ 
+  padding-bottom: .8rem;
+  border-radius: 50px;
+
+  color: var(--dark);
+  font-size: .8rem;
+  font-weight: 600;
+  line-height: 1rem;
+
+  border: solid var(--grey-01) 1px;
+}
+
+.cerveja::before{
+  content: "";
+  display: block;
+  
+  margin-top: -.2rem;
+  margin-bottom: .6rem;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../assets/icons/bebidas-white-icon-svg.svg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: var(--main);
+  border-radius: 50px;
+  padding: .8rem;
+}
+
+.combos::before{
+  content: "";
+  display: block;
+  
+  margin-top: -.2rem;
+  margin-bottom: .6rem;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../assets/icons/bebidas-white-icon-svg.svg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: var(--accent);
+  border-radius: 50px;
+  padding: .8rem;
+}
+
+.drinks::before{
+  content: "";
+  display: block;
+  
+  margin-top: -.2rem;
+  margin-bottom: .6rem;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../assets/icons/bebidas-white-icon-svg.svg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: var(--green);
+  border-radius: 50px;
+  padding: .8rem;
+}
+
+.sem-alcool{
+  padding-bottom: .8rem;
+
+  font-size: .75rem;
+  font-weight: 600;
+  line-height: 1rem;
+
+}
+
+.sem-alcool::before{
+  content: "";
+  display: block;
+  
+  margin-top: -.2rem;
+  margin-bottom: .6rem;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../assets/icons/bebidas-white-icon-svg.svg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: var(--purple);
+  border-radius: 50px;
+  padding: .8rem;
+}
