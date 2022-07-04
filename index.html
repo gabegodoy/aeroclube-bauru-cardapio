@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/searchbox.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/secondary-navbar.css">
 </head>
 <body>
   
@@ -28,17 +29,71 @@
   </div>
 
   <nav class="main__nav">
-    <ul class="main__nav__list">
-      <li class="main__nav__item bebidas nav__item--active">Bebidas</li>
-      <li class="main__nav__item petiscos">Petiscos</li>
-      <li class="main__nav__item porcoes">Porções</li>
-      <li class="main__nav__item sandubas">Sandubas</li>
-      <li class="main__nav__item sobremesas">Sobremesas</li>
+    <ul id="mainNav" class="main__nav__list">
+      <li id="bebidas" class="main__nav__item bebidas bebidas--active">Bebidas</li>
+      <li id="petiscos" class="main__nav__item petiscos">Petiscos</li>
+      <li id="porcoes" class="main__nav__item porcoes">Porções</li>
+      <li id="sandubas" class="main__nav__item sandubas">Sandubas</li>
+      <li id="sobremesas" class="main__nav__item sobremesas">Sobremesas</li>
     </ul>
   </nav>
 
-  <section class="products__container">
-    <h2 class="products__container__tittle">Garrafa</h2>
+
+  <section id="bebidas" class="bebidas__container">
+
+    <nav class="drinks__nav">
+      <ul class="drinks__nav__list">
+        <li><a href="#cerveja" class="drinks__nav__item cerveja">Cervejas</a></li>
+        <li><a href="#combos" class="drinks__nav__item combos">Combos</a></li>
+        <li><a href="#drinks" class="drinks__nav__item drinks">Drinks</a></li>
+        <li><a href="#semAlcool" class="drinks__nav__item sem-alcool">Sem Álcool</a></li>
+       </ul>
+    </nav>
+    
+    
+    <section  id="cerveja" class="products__container">
+      <h2 class="products__container__tittle">Chopp</h2>
+
+      <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Brahma</h4>
+            <p class="product__description">Caldereta</p>
+            <h5 class="product__price">9,00</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/chopp-brahma.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Stella Artois</h4>
+            <p class="product__description">Cálice</p>
+            <h5 class="product__price">10,00</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/chopp-stella_atois.png" alt="imagem do produto" class="product__image">
+        </div>
+
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Ribeirão Lager</h4>
+            <p class="product__description">Caldereta</p>
+            <h5 class="product__price">11,00</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Indica (IPA)</h4>
+            <p class="product__description">Caldereta</p>
+            <h5 class="product__price">11,00</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+      
+    </section>
+
+    <section class="products__container">
+      <h2 class="products__container__tittle">Garrafa</h2>
 
       <div class="product__item">
         <div class="product__info">
@@ -46,135 +101,383 @@
           <p class="product__description">600ml</p>
           <h5 class="product__price">15,50</h5>
         </div>
-        <img src="assets/images/menu-itens/cervejas/garrafa-spaten.png" alt="imagem do produto" class="product__image">
-      </div>
-
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Serra Malte</h4>
-          <p class="product__description">600ml</p>
-          <h5 class="product__price">14,50</h5>
+          <img src="assets/images/menu-itens/cervejas/garrafa-spaten.png" alt="imagem do produto" class="product__image">
         </div>
-        <img src="assets/images/menu-itens/cervejas/garrafa-serramalte.png" alt="imagem do produto" class="product__image">
-      </div>
 
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Bohemia</h4>
-          <p class="product__description">600ml</p>
-          <h5 class="product__price">13,50</h5>
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Serra Malte</h4>
+            <p class="product__description">600ml</p>
+            <h5 class="product__price">14,50</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/garrafa-serramalte.png" alt="imagem do produto" class="product__image">
         </div>
-        <img src="assets/images/menu-itens/cervejas/garrafa-bohemia.png" alt="imagem do produto" class="product__image">
-      </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Bohemia</h4>
+            <p class="product__description">600ml</p>
+            <h5 class="product__price">13,50</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/garrafa-bohemia.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Brahma</h4>
+            <p class="product__description">600ml</p>
+            <h5 class="product__price">13,50</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/garrafa-brahma.png" alt="imagem do produto" class="product__image">
+        </div>
 
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Brahma</h4>
-          <p class="product__description">600ml</p>
-          <h5 class="product__price">13,50</h5>
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Original</h4>
+            <p class="product__description">600ml</p>
+            <h5 class="product__price">13,50</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/garrafa-original.png" alt="imagem do produto" class="product__image">
         </div>
-        <img src="assets/images/menu-itens/cervejas/garrafa-brahma.png" alt="imagem do produto" class="product__image">
-      </div>
+        
+    </section>
 
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Original</h4>
-          <p class="product__description">600ml</p>
-          <h5 class="product__price">13,50</h5>
-        </div>
-        <img src="assets/images/menu-itens/cervejas/garrafa-original.png" alt="imagem do produto" class="product__image">
-      </div>
+    <section class="products__container">
+      <h2 class="products__container__tittle">Long Neck</h2>
       
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Stella Artois</h4>
+            <p class="product__description">330ml</p>
+            <h5 class="product__price">10,50</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/long-neck-stella.png" alt="imagem do produto" class="product__image">
+        </div>
+
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Hoegaarden</h4>
+            <p class="product__description">Belga | 330ml</p>
+            <h5 class="product__price">15,00</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/long-neck-hoegaarden.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Beck's</h4>
+            <p class="product__description">330ml</p>
+            <h5 class="product__price">12,00</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/long-neck-stella.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Corona</h4>
+            <p class="product__description">330ml</p>
+            <h5 class="product__price">12,00</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/long-neck-corona.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Balde Stella Artois</h4>
+            <p class="product__description">5 unidades | 330ml</p>
+            <h5 class="product__price">40,00</h5>
+          </div>
+          <img src="assets/images/menu-itens/cervejas/balde-stella.png" alt="imagem do produto" class="product__image">
+        </div>
+
+    </section>
+  
+    <section id="combos" class="products__container">
+      <h2 class="products__container__tittle">Combos</h2>
+      
+      <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Vodka Smirnoff</h4>
+            <p class="product__description">Acopanha 3 Red Bull ou 4 Tônicas</p>
+            <h5 class="product__price">150,00</h5>
+          </div>
+          <img src="assets/images/menu-itens/combos/combo-vodka.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Gin Gordons</h4>
+            <p class="product__description">Acompanha frutas e 3 Red Bull ou 4 Tônicas</p>
+            <h5 class="product__price">240,00</h5>
+          </div>
+          <img src="assets/images/menu-itens/combos/combo-gin.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Whisky Red Label 1L</h4>
+            <p class="product__description">Acopanha 3 Red Bull ou 4 Tônicas</p>
+            <h5 class="product__price">270,00</h5>
+          </div>
+          <img src="assets/images/menu-itens/combos/combo-whisky.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+    </section>
+  
+    <section id="drinks" class="products__container">
+      <h2 class="products__container__tittle">Drinks do Aero</h2>
+
+      <div class="product__item">
+        <div class="product__info">
+            <h4 class="product__name">Ipanema C-43 | <strong>Doce</strong></h4>
+            <p class="product__description">Digestivo a base de Licor 43, café gourmet e espuma de chantilly</p>
+            <h5 class="product__price">29,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Normandia | <strong>Refrescante</strong></h4>
+            <p class="product__description">Tropical Gin com toque de erva-doce, Red Bull Tropical e pêssego</p>
+            <h5 class="product__price">29,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Pantanal | <strong>Refrescante</strong></h4>
+            <p class="product__description">Clássico coquetel de Gin com abacaxi, hortelã e Red Bull Tropical</p>
+            <h5 class="product__price">29,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Mate Bourbon | <strong>Refrescante</strong></h4>
+            <p class="product__description">Perfeita combinação entre refrescante mate e poderoso bourbon</p>
+            <h5 class="product__price">29,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">GT Class | <strong>Refrescante</strong></h4>
+            <p class="product__description">Gin & Tônica com limão siciliano e toque de pimenta rosa</p>
+            <h5 class="product__price">29,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Boeing | <strong>Refrescante</strong></h4>
+            <p class="product__description">Clássico Gin com morango, hortelã e Red Bull Melancia</p>
+            <h5 class="product__price">29,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        
+    </section>
+
+    <section class="products__container">
+      <h2 class="products__container__tittle">Drinks Clássicos</h2>
+
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Mojito | <strong>Refrescante</strong></h4>
+            <p class="product__description">Rum, açúcar e toque de hortelã</p>
+            <h5 class="product__price">21,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Moscow Mule | <strong>Saboroso</strong></h4>
+            <p class="product__description">Vodka, limão e refrescante espuma de gengibre</p>
+            <h5 class="product__price">21,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Caipiroska | <strong>Teor alcoólico leve</strong></h4>
+            <p class="product__description">Vodka e frutas da estação. Consulte o atendente</p>
+            <h5 class="product__price">23,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Aperol Spritz | <strong>Refrescante</strong></h4>
+            <p class="product__description">Aperol, espumante e fatia de laranja</p>
+            <h5 class="product__price">24,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Negroni | <strong>Teor alcoólico alto</strong></h4>
+            <p class="product__description">Perfeita combinação entre Gin, Campari e Vermute</p>
+            <h5 class="product__price">26,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Sex On The Beach | <strong>Saboroso</strong></h4>
+            <p class="product__description">Vodka, suco de laranja e grenadine</p>
+            <h5 class="product__price">23,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Caipirinha | <strong>Teor alcoólico moderado</strong></h4>
+            <p class="product__description">Cachaça e frutas da estação. Consulte o atendente</p>
+            <h5 class="product__price">19,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+
+    </section>
+    
+    <section id="semAlcool" class="products__container">
+      <h2 class="products__container__tittle">Não Alcoólicos</h2>
+
+      <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Água</h4>
+            <p class="product__description">500ml</p>
+            <h5 class="product__price">3,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Água com Gás</h4>
+            <p class="product__description">500ml</p>
+            <h5 class="product__price">4,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Guaraná</h4>
+            <p class="product__description">350ml</p>
+            <h5 class="product__price">5,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Pepsi</h4>
+            <p class="product__description">350ml</p>
+            <h5 class="product__price">5,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Sukita</h4>
+            <p class="product__description">350ml</p>
+            <h5 class="product__price">5,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Soda</h4>
+            <p class="product__description">350ml</p>
+            <h5 class="product__price">5,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">H2O Limão</h4>
+            <p class="product__description">500ml</p>
+            <h5 class="product__price">6,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">H2O Limoneto</h4>
+            <p class="product__description">500ml</p>
+            <h5 class="product__price">6,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Água Tônica</h4>
+            <p class="product__description">350ml</p>
+            <h5 class="product__price">6,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Red Bull</h4>
+            <p class="product__description">250ml</p>
+            <h5 class="product__price">11,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Suco Natural</h4>
+            <p class="product__description">Frutas da estação</p>
+            <h5 class="product__price">9,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Mate Natural</h4>
+            <p class="product__description">Mate Limão</p>
+            <h5 class="product__price">9,90</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+        <div class="product__item">
+          <div class="product__info">
+            <h4 class="product__name">Café Espresso</h4>
+            <p class="product__description">Xícara</p>
+            <h5 class="product__price">5,00</h5>
+          </div>
+          <img src="assets/images/item-padrao.png" alt="imagem do produto" class="product__image">
+        </div>
+        
+    </section>
+    
   </section>
-
-  <section class="products__container">
-    <h2 class="products__container__tittle">Long Neck</h2>
-
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Stella Artois</h4>
-          <p class="product__description">330ml</p>
-          <h5 class="product__price">10,50</h5>
-        </div>
-        <img src="assets/images/menu-itens/cervejas/long-neck-stella.png" alt="imagem do produto" class="product__image">
-      </div>
-
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Hoegaarden</h4>
-          <p class="product__description">Belga | 330ml</p>
-          <h5 class="product__price">15,00</h5>
-        </div>
-        <img src="assets/images/menu-itens/cervejas/long-neck-hoegaarden.png" alt="imagem do produto" class="product__image">
-      </div>
-      
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Beck's</h4>
-          <p class="product__description">330ml</p>
-          <h5 class="product__price">12,00</h5>
-        </div>
-        <img src="assets/images/menu-itens/cervejas/long-neck-stella.png" alt="imagem do produto" class="product__image">
-      </div>
-      
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Corona</h4>
-          <p class="product__description">330ml</p>
-          <h5 class="product__price">12,00</h5>
-        </div>
-        <img src="assets/images/menu-itens/cervejas/long-neck-corona.png" alt="imagem do produto" class="product__image">
-      </div>
-      
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Balde Stella Artois</h4>
-          <p class="product__description">5 unidades | 330ml</p>
-          <h5 class="product__price">40,00</h5>
-        </div>
-        <img src="assets/images/menu-itens/cervejas/balde-stella.png" alt="imagem do produto" class="product__image">
-      </div>
-
-  </section>
-
-  <section class="products__container">
-    <h2 class="products__container__tittle">Combos</h2>
-
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Vodka Smirnoff</h4>
-          <p class="product__description">Acopanha 3 Red Bull ou 4 Tônicas</p>
-          <h5 class="product__price">150,00</h5>
-        </div>
-        <img src="assets/images/menu-itens/combos/combo-vodka.png" alt="imagem do produto" class="product__image">
-      </div>
-
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Gin Gordons</h4>
-          <p class="product__description">Acompanha frutas e 3 Red Bull ou 4 Tônicas</p>
-          <h5 class="product__price">240,00</h5>
-        </div>
-        <img src="assets/images/menu-itens/combos/combo-gin.png" alt="imagem do produto" class="product__image">
-      </div>
-      
-      <div class="product__item">
-        <div class="product__info">
-          <h4 class="product__name">Whisky Red Label 1L</h4>
-          <p class="product__description">Acopanha 3 Red Bull ou 4 Tônicas</p>
-          <h5 class="product__price">270,00</h5>
-        </div>
-        <img src="assets/images/menu-itens/combos/combo-whisky.png" alt="imagem do produto" class="product__image">
-      </div>
-      
-  </section>
-
-
-
-
-
-
-
+    
+    
+    
   <script src="js/main.js"></script>
 </body>
 </html>
