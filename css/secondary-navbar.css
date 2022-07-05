@@ -1,9 +1,9 @@
-.drinks__nav{
+.secondary__nav{
   margin-top: 1rem;
   width: 100%;
 }
 
-.drinks__nav__list{
+.secondary__nav__list{
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -13,11 +13,11 @@
   overflow: scroll;
 }
 
-.drinks__nav__list::-webkit-scrollbar{
+.secondary__nav__list::-webkit-scrollbar{
   display: none;
 }
 
-.drinks__nav__item{
+.secondary__nav__item{
   display: flex;
   flex-direction: column;
   align-items: center;
