@@ -4,5 +4,6 @@ body{
   font-family: var(--lato);
 }
 
-
-
+.petiscos__container{
+  display: none;
+}
