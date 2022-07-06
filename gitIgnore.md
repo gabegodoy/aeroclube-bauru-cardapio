@@ -15,3 +15,10 @@
   *[ ] CSS style quantity on product's description;
 *[X] JS functionalities;
   *[ ] Refactor code;
+
+
+
+
+
+*[ ] Destaques
+ *[ ] Menu do dia;
