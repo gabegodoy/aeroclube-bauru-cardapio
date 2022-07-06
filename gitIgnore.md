@@ -13,5 +13,9 @@
   *[X] Products container;
   *[X] Product item;
   *[ ] CSS style quantity on product's description;
+  *[ ] threshold on top;
+  *[ ] Aero-Font;
+
 *[X] JS functionalities;
   *[ ] Refactor code;
+
