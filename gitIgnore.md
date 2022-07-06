@@ -1,15 +1,16 @@
 ### TASK LISK
 
 *[X] Choose layout;
-  *[ ] Define colour palette;
-  *[ ] Define font;
+  *[X] Define colour palette;
+  *[X] Define font;
 *[ ] Produce product images (Photoshop);
 *[ ] Get icons;
-*[ ] Products page HTML/CSS;
-  *[ ] Header;
-  *[ ] SearchBox;
-  *[ ] Main Nav-Bar;
-  *[ ] Secondary Nav-Bar;
-  *[ ] Products container;
-  *[ ] Product item;
-*[ ] JS functionalities;
+*[X] Products page HTML/CSS;
+  *[X] Header;
+  *[x] SearchBox;
+  *[X] Main Nav-Bar;
+  *[X] Secondary Nav-Bar;
+  *[X] Products container;
+  *[X] Product item;
+*[X] JS functionalities;
+
