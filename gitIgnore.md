@@ -12,5 +12,6 @@
   *[X] Secondary Nav-Bar;
   *[X] Products container;
   *[X] Product item;
+  *[ ] CSS style quantity on product's description;
 *[X] JS functionalities;
-
+  *[ ] Refactor code;
