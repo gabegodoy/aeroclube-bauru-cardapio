@@ -5,10 +5,12 @@ const sandubas = document.querySelector('#sandubas')
 const sobremesas = document.querySelector('#sobremesas')
 const mainNav = document.querySelector('#mainNav')
 
-const categoriesContainer = document.querySelectorAll('.category__container')
-const bebidasContainer = document.querySelector('#bebidasContainer')
-const petiscosContainer = document.querySelector('#petiscosContainer')
-const porcoesContainer = document.querySelector('#porcoesContainer')
+const categoriesContainer = document.querySelectorAll('.category__container');
+const bebidasContainer = document.querySelector('#bebidasContainer');
+const petiscosContainer = document.querySelector('#petiscosContainer');
+const porcoesContainer = document.querySelector('#porcoesContainer');
+const sandubasContainer = document.querySelector('#sandubasContainer');
+const sobremesasContainer = document.querySelector('#sobremesasContainer');
 
 
 mainNav.childNodes.forEach(function (element){
@@ -16,26 +18,11 @@ mainNav.childNodes.forEach(function (element){
     
     let clickedItemClass = event.target.classList[1];
 
-    disableNavItems()
-    event.target.classList.add(clickedItemClass+'--active')
-
-    disableSections()
-
-
-    switch (clickedItemClass) {
-      case 'bebidas':
-        bebidasContainer.style.display = 'block'
-        break;
+    disableNavItems();
+    event.target.classList.add(clickedItemClass+'--active');
+    hideContainers();
+    showContainer(clickedItemClass);
     
-      case 'petiscos':
-        petiscosContainer.style.display = 'block'
-        break;    
-
-      case 'porcoes':
-        porcoesContainer.style.display = 'block'
-        break;    
-
-    } 
   })
 })
 
@@ -48,11 +35,28 @@ function disableNavItems(){
   sobremesas.classList.remove('sobremesas--active');
 }
 
-function disableSections(){
+function hideContainers(){
   categoriesContainer.forEach(function (element){
     element.style.display = 'none'
   })
 }
 
-
-/* REFATORAR - refactoring*/
+function showContainer(selectedContainer){
+  switch (selectedContainer) {
+    case 'bebidas':
+      bebidasContainer.style.display = 'block'
+      break;    
+    case 'petiscos':
+      petiscosContainer.style.display = 'block'
+      break;    
+    case 'porcoes':
+      porcoesContainer.style.display = 'block'
+      break;    
+    case 'sandubas':
+      sandubasContainer.style.display = 'block'
+      break;    
+    case 'sobremesas':
+      sobremesasContainer.style.display = 'block'
+      break;   
+  }
+}
