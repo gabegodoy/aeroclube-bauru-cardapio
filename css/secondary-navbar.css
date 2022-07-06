@@ -49,8 +49,8 @@
 
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(../assets/icons/bebidas-white-icon-svg.svg);
-  background-size: 40%;
+  background-image: url(../assets/icons/beer-icon.svg);
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -68,8 +68,8 @@
 
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(../assets/icons/bebidas-white-icon-svg.svg);
-  background-size: 40%;
+  background-image: url(../assets/icons/combo-icon.svg);
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -87,8 +87,8 @@
 
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(../assets/icons/bebidas-white-icon-svg.svg);
-  background-size: 40%;
+  background-image: url(../assets/icons/drink-icon.svg);
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -115,8 +115,8 @@
 
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(../assets/icons/bebidas-white-icon-svg.svg);
-  background-size: 40%;
+  background-image: url(../assets/icons/soda-icon.svg);
+  background-size: 55%;
   background-repeat: no-repeat;
   background-position: center;
 
