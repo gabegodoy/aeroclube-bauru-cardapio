@@ -77,3 +77,7 @@
   max-height: 6.25rem;
   background-color: var(--grey-02);
  }
+
+.bebidas__container{
+  display: block;
+}

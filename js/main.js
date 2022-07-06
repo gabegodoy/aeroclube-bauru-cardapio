@@ -1,11 +1,3 @@
-/* 
-bebidas--active
-petiscos--active
-porcoes--active
-sandubas--active
-sobremesas--active 
-*/
-
 const bebidas = document.querySelector('#bebidas')
 const petiscos = document.querySelector('#petiscos')
 const porcoes = document.querySelector('#porcoes')
@@ -16,6 +8,7 @@ const mainNav = document.querySelector('#mainNav')
 const categoriesContainer = document.querySelectorAll('.category__container')
 const bebidasContainer = document.querySelector('#bebidasContainer')
 const petiscosContainer = document.querySelector('#petiscosContainer')
+const porcoesContainer = document.querySelector('#porcoesContainer')
 
 
 mainNav.childNodes.forEach(function (element){
@@ -38,6 +31,10 @@ mainNav.childNodes.forEach(function (element){
         petiscosContainer.style.display = 'block'
         break;    
 
+      case 'porcoes':
+        porcoesContainer.style.display = 'block'
+        break;    
+
     } 
   })
 })
@@ -56,3 +53,6 @@ function disableSections(){
     element.style.display = 'none'
   })
 }
+
+
+/* REFATORAR - refactoring*/
