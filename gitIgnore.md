@@ -4,7 +4,7 @@
   *[X] Define colour palette;
   *[X] Define font;
 *[ ] Produce product images (Photoshop);
-*[ ] Get icons;
+*[X] Get icons;
 *[X] Products page HTML/CSS;
   *[X] Header;
   *[x] SearchBox;
@@ -13,15 +13,11 @@
   *[X] Products container;
   *[X] Product item;
   *[ ] CSS style quantity on product's description;
-  *[ ] threshold on top;
-  *[ ] Aero-Font;
+  *[X] Threshold on top;
+  *[X] Aero-Font;
 
 *[X] JS functionalities;
-  *[ ] Refactor code;
-
-
-
-
+  *[X] Refactor code;
 
 *[ ] Destaques
  *[ ] Menu do dia;
