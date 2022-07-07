@@ -19,3 +19,9 @@
 *[X] JS functionalities;
   *[ ] Refactor code;
 
+
+
+
+
+*[ ] Destaques
+ *[ ] Menu do dia;
