@@ -1,4 +1,5 @@
 @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+@import url(//db.onlinewebfonts.com/c/b5477b6215858c9a3770dbbc7906820f?family=Agency+Gothic+CT+Medium);
 
 :root{
 
@@ -15,8 +16,8 @@
   --purple: #A183E0;
   --yellow: #FFA902;
 
-  --aeroblue: #25145f;
-
+  --aeroblue: #23125e;
+  --aeroFont: "Agency Gothic CT Medium";
   --lato: 'Lato', sans-serif;
 
 }
