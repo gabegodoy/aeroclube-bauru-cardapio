@@ -62,11 +62,22 @@ function showContainer(selectedContainer){
   }
 }
 
-drawHeaderLines()
+let newWidth = window.innerWidth;
 
-function drawHeaderLines(){
+window.addEventListener('resize', (event) =>{
+  newWidth = window.innerWidth
   
-  for (let i = 0; i <= window.innerWidth; i+=70){
+  drawHeaderLines(newWidth)
+
+});
+
+drawHeaderLines(newWidth)
+
+function drawHeaderLines(width){
+  
+  linesContainer.innerHTML = ''
+
+  for (let i = 0; i <= width; i+=70){
   
     let newLine = document.createElement('div')
     newLine.classList.add('vertical-line')
