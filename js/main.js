@@ -1,9 +1,10 @@
-const bebidas = document.querySelector('#bebidas')
-const petiscos = document.querySelector('#petiscos')
-const porcoes = document.querySelector('#porcoes')
-const sandubas = document.querySelector('#sandubas')
-const sobremesas = document.querySelector('#sobremesas')
-const mainNav = document.querySelector('#mainNav')
+const bebidas = document.querySelector('#bebidas');
+const petiscos = document.querySelector('#petiscos');
+const porcoes = document.querySelector('#porcoes');
+const sandubas = document.querySelector('#sandubas');
+const sobremesas = document.querySelector('#sobremesas');
+const mainNav = document.querySelector('#mainNav');
+const linesContainer = document.querySelector('#linesContainer');
 
 const categoriesContainer = document.querySelectorAll('.category__container');
 const bebidasContainer = document.querySelector('#bebidasContainer');
@@ -59,4 +60,18 @@ function showContainer(selectedContainer){
       sobremesasContainer.style.display = 'block'
       break;   
   }
+}
+
+drawHeaderLines()
+
+function drawHeaderLines(){
+  
+  for (let i = 0; i <= window.innerWidth; i+=70){
+  
+    let newLine = document.createElement('div')
+    newLine.classList.add('vertical-line')
+
+    linesContainer.appendChild(newLine)
+  }
+
 }
