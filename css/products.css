@@ -72,10 +72,10 @@
 }
 
 .product__image{
-  border: solid var(--aeroblue) 1px;
+  border: solid var(--aeroblue) 1.5px;
   border-radius: 30px;
   max-height: 6.25rem;
-  background-color: var(--grey-02);
+  background-color: var(--aeroblue06);
  }
 
 .bebidas__container{
