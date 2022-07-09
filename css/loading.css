@@ -1,0 +1,42 @@
+.loading__page{
+  display: block;
+  text-align: center;
+
+}
+
+.loading__tittle{
+  color: var(--aeroblue);
+  font-family: var(--aeroFont);
+  font-size: 2.5rem;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+
+.loading__image{
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.loading__message{
+  color: var(--gray02);
+  font-family: var(--aeroFont);
+  font-size: 1.5rem;
+  letter-spacing: .2rem;
+}
+
+.loading__message{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid var(--aeroblue); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(20, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 220px }
+}
