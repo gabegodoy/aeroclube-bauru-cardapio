@@ -7,3 +7,7 @@ body{
 .category__container{
   display: none;
 }
+
+main{
+  display: none;
+}
